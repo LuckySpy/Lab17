@@ -1,0 +1,65 @@
+id,importNo,semester,order,topic,type,testname,tasks
+1,1,15ws,1,"01 Einführung",Zulassungstest,Einführung,4
+2,2,15ws,2,"02 OO-Einführung",Zulassungstest,OO-Einführung,7
+3,3,15ws,5,"03 Variablen und Typen",Zulassungstest,"Variablen und Typen",8
+4,4,15ws,8,"04 Parameter, Methoden, Objektzustände, Kapselung",Zulassungstest,"Parameter, Methoden, Objektzustände, Kapselung",8
+5,5,15ws,10,"05 Systematisches Programmieren",Zulassungstest,"Systematisches Programmieren",10
+6,6,15ws,12,"06 Speicher & Rekursion",Zulassungstest,"Speicher & Rekursion",9
+7,7,15ws,14,"07 Polymorphie",Zulassungstest,Polymorphie,5
+8,8,15ws,17,"09 Interfaces",Zulassungstest,Interfaces,3
+9,9,15ws,20,"10 Klassenmethoden und -variablen",Zulassungstest,"Klassenmethoden und -variablen",3
+10,10,15ws,23,"11 Exception Handling",Zulassungstest,"Exception Handling",3
+11,11,15ws,26,"12 GUI",Zulassungstest,GUI,5
+12,12,15ws,29,"13 Persistenz",Zulassungstest,Persistenz,4
+13,13,15ws,31,"14 Datenstrukturen",Zulassungstest,Datenstrukturen,4
+14,14,15ws,3,"02 OO-Einführung","Head First Test","OO Einführung",2
+15,15,15ws,9,"04 Parameter, Methoden, Objektzustände, Kapselung","Head First Test","Parameter, Methoden, Objektzustädne, Kapselung",4
+16,16,15ws,11,"05 Systematisches Programmieren","Head First Test","Systematisches Programmieren",2
+17,17,15ws,15,"07 Polymorphie","Head First Test",Polymorphie,3
+18,18,15ws,18,"09 Interfaces","Head First Test",Interfaces,4
+19,19,15ws,21,"10 Klassenmethoden und -variablen","Head First Test","Klassenmethoden und -variablen",2
+20,20,15ws,24,"11 Exception Handling","Head First Test","Exception Handling",1
+21,21,15ws,27,"12 GUI","Head First Test",GUI,2
+22,22,15ws,30,"13 Persistenz","Head First Test",Persistenz,2
+23,23,15ws,4,"03 Variablen und Typen",Selbsttests,Variablen,4
+24,24,15ws,6,"04 Parameter, Methoden, Objektzustände, Kapselung",Selbsttests,Methoden,5
+25,25,15ws,7,"04 Parameter, Methoden, Objektzustände, Kapselung",Selbsttests,"Programme schreiben",4
+26,26,15ws,13,"07 Polymorphie",Selbsttests,"Vererbung & Polymorphie",7
+27,27,15ws,16,"09 Interfaces",Selbsttests,"Interfaces & abstrakte Klassen",7
+28,28,15ws,19,"10 Klassenmethoden und -variablen",Selbsttests,"Klassenmethoden und -variablen, Konstanten",5
+29,29,15ws,22,"11 Exception Handling",Selbsttests,Exceptions,7
+30,30,15ws,25,"12 GUI",Selbsttests,"GUI Programmierung",6
+31,31,15ws,28,"13 Persistenz",Selbsttests,"Objekte und Daten speichern, Pakete und JARs",7
+32,32,15ws,32,Klausurvorbereitung,Selbsttests,Klausurvorbereitung,23
+33,33,16ws,1,"01 Einführung",Zulassungstest,Einführung,4
+34,34,16ws,2,"02 OO-Einführung",Zulassungstest,OO-Einführung,7
+35,35,16ws,5,"03 Variablen und Typen",Zulassungstest,"Variablen und Typen",8
+36,36,16ws,8,"04 Parameter, Methoden, Objektzustände, Kapselung",Zulassungstest,"Parameter, Methoden, Objektzustände, Kapselung",8
+37,37,16ws,10,"05 Systematisches Programmieren",Zulassungstest,"Systematisches Programmieren",10
+38,38,16ws,12,"06 Speicher & Rekursion",Zulassungstest,"Speicher & Rekursion",9
+39,39,16ws,14,"07 Polymorphie",Zulassungstest,Polymorphie,5
+40,40,16ws,17,"09 Interfaces",Zulassungstest,Interfaces,3
+41,41,16ws,20,"10 Klassenmethoden und -variablen",Zulassungstest,"Klassenmethoden und -variablen",3
+42,42,16ws,23,"11 Exception Handling",Zulassungstest,"Exception Handling",3
+43,43,16ws,26,"12 GUI",Zulassungstest,GUI,5
+44,44,16ws,29,"13 Persistenz",Zulassungstest,Persistenz,4
+45,45,16ws,31,"14 Datenstrukturen",Zulassungstest,Datenstrukturen,4
+46,46,16ws,4,"03 Variablen und Typen",Selbsttests,Variablen,4
+47,47,16ws,3,"02 OO-Einführung","Head First Test","OO Einführung",2
+48,48,16ws,9,"04 Parameter, Methoden, Objektzustände, Kapselung","Head First Test","Parameter, Methoden, Objektzustädne, Kapselung",4
+49,49,16ws,11,"05 Systematisches Programmieren","Head First Test","Systematisches Programmieren",2
+50,50,16ws,15,"07 Polymorphie","Head First Test",Polymorphie,3
+51,51,16ws,18,"09 Interfaces","Head First Test",Interfaces,4
+52,52,16ws,21,"10 Klassenmethoden und -variablen","Head First Test","Klassenmethoden und -variablen",2
+53,53,16ws,24,"11 Exception Handling","Head First Test","Exception Handling",1
+54,54,16ws,27,"12 GUI","Head First Test",GUI,2
+55,55,16ws,30,"13 Persistenz","Head First Test",Persistenz,2
+56,56,16ws,6,"04 Parameter, Methoden, Objektzustände, Kapselung",Selbsttests,Methoden,5
+57,57,16ws,7,"04 Parameter, Methoden, Objektzustände, Kapselung",Selbsttests,"Programme schreiben",4
+58,58,16ws,13,"07 Polymorphie",Selbsttests,"Vererbung & Polymorphie",7
+59,59,16ws,16,"09 Interfaces",Selbsttests,"Interfaces & abstrakte Klassen",7
+60,60,16ws,19,"10 Klassenmethoden und -variablen",Selbsttests,"Klassenmethoden und -variablen, Konstanten",5
+61,61,16ws,22,"11 Exception Handling",Selbsttests,Exceptions,7
+62,62,16ws,25,"12 GUI",Selbsttests,"GUI Programmierung",6
+63,63,16ws,28,"13 Persistenz",Selbsttests,"Objekte und Daten speichern, Pakete und JARs",7
+64,64,16ws,32,Klausurvorbereitung,Selbsttests,Klausurvorbereitung,23
