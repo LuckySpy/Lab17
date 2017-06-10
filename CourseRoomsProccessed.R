@@ -114,6 +114,10 @@ courseRooms$Institute<-gsub("Universit.*tsbibliothek", "Universitätsbibliothek"
 courseRooms$Institute<-gsub("für .*kosystemanalyse ", "für Ökosystemanalyse ",courseRooms$Institute)
 
 
+
+institute.name<- as.data.frame(sqldf("SELECT Institute, COUNT(Institute) FROM courseRooms  GROUP BY Institute "))
+
+
 ##---------------------------------PART 2.4 cORRECT WROGN ENTRIES CRTITLE COLUMN------------------------------------------
 
 
@@ -194,8 +198,21 @@ courseRooms[empCells$row,]
 #Table with the number of courses in courserooms per faculty
 write.csv(faculties.courses, file = "faculties.courses.csv")
 
-#Table of courses types per faculty
 
+#Result table with institutes per faculty and number of courses per institute  are being visualized in a treemap like form
+facalty.institute<- as.data.frame(sqldf("SELECT Faculty,Institute, COUNT(CRTitle) FROM courseRooms  GROUP BY Institute ORDER BY Faculty ASC "))
+colnames(facalty.institute)[3]<-("coursesNum")
 
+#Visualization of the data in a treemap structure
 
+library(treemap)
+trmp<-treemap(facalty.institute, #Your data frame object
+              index=c("Faculty","Institute"),  #A list of your categorical variables
+              vSize = "coursesNum",  #This is your quantitative variable
+              type="index", #Type sets the organization and color scheme of your treemap
+              palette = "Reds",  #Select your color palette from the RColorBrewer presets or make your own.
+              title="Number of courses in faculties", #Customize your title
+              fontsize.title = 14 #Change the font size of the title
+)
 
+d3tree2( trmp,rootname = "RWTH" )
