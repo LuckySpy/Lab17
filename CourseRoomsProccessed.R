@@ -206,6 +206,7 @@ colnames(facalty.institute)[3]<-("coursesNum")
 #Visualization of the data in a treemap structure
 
 library(treemap)
+library(d3treeR)
 trmp<-treemap(facalty.institute, #Your data frame object
               index=c("Faculty","Institute"),  #A list of your categorical variables
               vSize = "coursesNum",  #This is your quantitative variable
